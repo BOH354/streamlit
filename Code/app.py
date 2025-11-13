@@ -40,4 +40,4 @@ st.write("MinIO: (REDACTED FOR SECURITY PURPOSES)")
 
 st.markdown("---")
 st.header("🛠️Maintenance")
-st.write("Grafana: https://cyber.redback.it.deakin.edu.au:9443/monitor/login")
+st.write("Grafana: (REDACTED FOR SECURITY PURPOSES)")
