@@ -4,15 +4,6 @@ import streamlit as st
 
 st.set_page_config(page_title="Redback Operations", layout="wide")
 
-
-LOGO = Path(__file__).resolve().parent / "images" / "logo.png"
-
-if LOGO.exists():
-    image = Image.open(LOGO)
-    image = image.resize((80, 80), Image.Resampling.LANCZOS)
-else:
-    image = None
-
 col1, col2 = st.columns([0.1, 0.9])
 with col1:
     if image:
